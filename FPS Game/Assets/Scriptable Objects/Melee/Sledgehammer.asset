@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78921c0d6d5aa3f46b6226410d5de9bc, type: 3}
+  m_Name: Sledgehammer
+  m_EditorClassIdentifier: 
+  gunName: Sledgehammer
+  prefab: {fileID: 6901944201252089014, guid: 9a9806f200012a947a0d50423b041797, type: 3}
+  bulletSpread: 11
+  fireRate: 1
+  isMelee: 1
+  magazineSize: 1
+  maxAmmoStash: 1
+  currentAmmoStash: 0
+  currentBulletsInMagazine: 0
+  reloadTime: 0
+  isAutomatic: 0
+  isBurst: 0
+  timeBetweenBullets: 0
+  bulletsPerTap: 1
+  timeBetweenFiring: 0.1
+  useRecovery: 0
+  aimSpeed: 1
+  playerCamZoomMultiplier: 1
+  weaponCamZoomMultiplier: 1
+  ADSSensitivityMultiplier: 1
+  ADSSwayMultiplier: 1
+  damage: 100
+  bulletForce: 1
+  canBeShot:
+    serializedVersion: 2
+    m_Bits: 4233
+  trailTime: 1
+  randomizeRecoil: 1
+  randomRecoilConstraints: {x: 0, y: 0}
+  recoilPattern: []
+  snappiness: 1
+  returnSpeed: 1
+  aimSnappiness: 1
+  aimReturnSpeed: 1
+  rotationalKickback: 1
+  rotationalKickbackReturnSpeed: 1
+  positionalKickback: 1
+  positionalKickbackReturnSpeed: 1
+  magnitude: 1
+  roughness: 1
+  fadeInTime: 1
+  fadeOutTime: 1
+  bulletHolePrefab: {fileID: 5937179703506891156, guid: 616f033eb0f621c45a93486fa3c07f00, type: 3}
+  muzzleFlashPrefab: {fileID: 0}
+  gunshotSounds: []
+  pitchRandomization: 1
+  volume: 1

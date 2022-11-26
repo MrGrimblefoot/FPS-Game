@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78921c0d6d5aa3f46b6226410d5de9bc, type: 3}
+  m_Name: MP5
+  m_EditorClassIdentifier: 
+  gunName: MP5
+  prefab: {fileID: 7742117235463440597, guid: b00cbb3db6624ca46a0c9f3d61ea0f24, type: 3}
+  bulletSpread: 1
+  fireRate: 0.075
+  isMelee: 0
+  magazineSize: 30
+  maxAmmoStash: 150
+  currentAmmoStash: 145
+  currentBulletsInMagazine: 30
+  reloadTime: 1
+  isAutomatic: 1
+  isBurst: 0
+  timeBetweenBullets: 0
+  bulletsPerTap: 1
+  timeBetweenFiring: 0
+  useRecovery: 0
+  aimSpeed: 13
+  playerCamZoomMultiplier: 1
+  weaponCamZoomMultiplier: 1.75
+  ADSSensitivityMultiplier: 1
+  ADSSwayMultiplier: 12
+  damage: 15
+  bulletForce: 10
+  canBeShot:
+    serializedVersion: 2
+    m_Bits: 4225
+  trailTime: 1
+  randomizeRecoil: 0
+  randomRecoilConstraints: {x: 0.1, y: 0.1}
+  recoilPattern:
+  - {x: -3, y: 0, z: 0}
+  - {x: -3, y: -1, z: 0}
+  - {x: -4, y: 1, z: 0}
+  - {x: -4, y: 1, z: 0}
+  - {x: -4, y: -1, z: 0}
+  - {x: -4, y: -1, z: 0}
+  - {x: -4, y: 1, z: 0}
+  - {x: -5, y: 1, z: 0}
+  - {x: -6, y: -1, z: 0}
+  - {x: -7, y: -1, z: 0}
+  - {x: -7, y: 1, z: 0}
+  - {x: -7, y: -1, z: 0}
+  - {x: -7, y: 1, z: 0}
+  - {x: -7, y: -1, z: 0}
+  - {x: -7, y: 1, z: 0}
+  - {x: -7, y: -1, z: 0}
+  - {x: -7, y: 1, z: 0}
+  - {x: -7, y: -1, z: 0}
+  - {x: -7, y: 1, z: 0}
+  - {x: -7, y: 0, z: 0}
+  snappiness: 2.3
+  returnSpeed: 8
+  aimSnappiness: 1.8
+  aimReturnSpeed: 11
+  rotationalKickback: 0.5
+  rotationalKickbackReturnSpeed: 8
+  positionalKickback: 0.1
+  positionalKickbackReturnSpeed: 1
+  magnitude: 0.05
+  roughness: 0.5
+  fadeInTime: 0.1
+  fadeOutTime: 0.3
+  bulletHolePrefab: {fileID: 5937179703506891156, guid: 616f033eb0f621c45a93486fa3c07f00, type: 3}
+  muzzleFlashPrefab: {fileID: 0}
+  gunshotSounds:
+  - {fileID: 8300000, guid: e5202965de636f04b9273de4868df2aa, type: 3}
+  - {fileID: 8300000, guid: 4e976bfb065889a469455ea24f6a6a21, type: 3}
+  - {fileID: 8300000, guid: b3c7151ed3492444db33290254fbc76a, type: 3}
+  - {fileID: 8300000, guid: 3a910a8fbdd55ac4dab4cee08e8044bf, type: 3}
+  pitchRandomization: 0.15
+  volume: 1

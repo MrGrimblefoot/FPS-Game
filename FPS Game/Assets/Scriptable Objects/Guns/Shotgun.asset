@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78921c0d6d5aa3f46b6226410d5de9bc, type: 3}
+  m_Name: Shotgun
+  m_EditorClassIdentifier: 
+  gunName: Shotgun
+  prefab: {fileID: 3326953236660222628, guid: 8305a12b29fe0e94289b1f7d74be3df8, type: 3}
+  bulletSpread: 12
+  fireRate: 0.7
+  isMelee: 0
+  magazineSize: 48
+  maxAmmoStash: 240
+  currentAmmoStash: 0
+  currentBulletsInMagazine: 0
+  reloadTime: 1
+  isAutomatic: 0
+  isBurst: 1
+  timeBetweenBullets: 0
+  bulletsPerTap: 8
+  timeBetweenFiring: 0.1
+  useRecovery: 0
+  aimSpeed: 13
+  playerCamZoomMultiplier: 1.5
+  weaponCamZoomMultiplier: 1.5
+  ADSSensitivityMultiplier: 1.5
+  ADSSwayMultiplier: 0.1
+  damage: 10
+  bulletForce: 5
+  canBeShot:
+    serializedVersion: 2
+    m_Bits: 4225
+  trailTime: 1
+  randomizeRecoil: 0
+  randomRecoilConstraints: {x: 0.1, y: 0.1}
+  recoilPattern:
+  - {x: -4.5, y: 0, z: 0}
+  - {x: -4.5, y: 0, z: 0}
+  snappiness: 4
+  returnSpeed: 2
+  aimSnappiness: 4
+  aimReturnSpeed: 3
+  rotationalKickback: 1
+  rotationalKickbackReturnSpeed: 0.1
+  positionalKickback: 0.8
+  positionalKickbackReturnSpeed: 1
+  magnitude: 0.1
+  roughness: 1
+  fadeInTime: 0.1
+  fadeOutTime: 1
+  bulletHolePrefab: {fileID: 5937179703506891156, guid: 616f033eb0f621c45a93486fa3c07f00, type: 3}
+  muzzleFlashPrefab: {fileID: 0}
+  gunshotSounds:
+  - {fileID: 8300000, guid: 4b6505ac13a67654888d1aa95f86fd39, type: 3}
+  pitchRandomization: 0.15
+  volume: 1

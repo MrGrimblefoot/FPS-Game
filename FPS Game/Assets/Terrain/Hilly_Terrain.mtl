@@ -1,0 +1,5 @@
+newmtl Default_Mat
+map_Kd GridBox_Default.png
+Kd 1 1 1
+d 1
+

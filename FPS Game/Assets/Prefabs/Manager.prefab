@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3874290908864010499
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3874290908864010497}
+  - component: {fileID: 680889331}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3874290908864010497
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3874290908864010499}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &680889331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3874290908864010499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 640bca1e5ac525f40ba7b3d5d0d0adf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPrefab1: {fileID: 7303750212754021200, guid: ff9e92b7216cda84d82aa97e64127fff, type: 3}
+  playerPrefab2: {fileID: 7303750212754021200, guid: 77a139316a9721b488ed85e106bedc58, type: 3}
+  playerPrefab3: {fileID: 7303750212754021200, guid: 5c4e43d159429ad4783e56b52c17a532, type: 3}
+  playerPrefab4: {fileID: 7303750212754021200, guid: 8ccdc1bc195af944095349ad7944ac64, type: 3}
+  playerPrefab1ToSpawn: Soldier Drone
+  playerPrefab2ToSpawn: Marksman Drone
+  playerPrefab3ToSpawn: Wrecker Drone
+  playerPrefab4ToSpawn: Support Drone
+  guns:
+  - {fileID: 11400000, guid: bae9a48f558883b4ea438fb757b158f6, type: 2}
+  - {fileID: 11400000, guid: a354787f7f0a6e0409f109cd95b286a9, type: 2}
+  - {fileID: 11400000, guid: d77ad33e6932f3243b578d5fea79fa40, type: 2}
+  - {fileID: 11400000, guid: 218b2349b3fc90e4e9c74f0541f96809, type: 2}
+  - {fileID: 11400000, guid: fd0ba5144c0a23f4a8a99b648b4a5664, type: 2}
+  - {fileID: 11400000, guid: 642071f50c8671048bed5d1d39d9957f, type: 2}
+  spawnPoints:
+  - {fileID: 0}
+  loadoutPicker: {fileID: 0}
+  cam: {fileID: 6811179313992377552, guid: 649aa9d9de791f44c9c8f3a2f9a3d85d, type: 3}
+  camPos: {fileID: 0}
+  newCam: {fileID: 0}

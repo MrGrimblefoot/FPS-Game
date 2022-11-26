@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78921c0d6d5aa3f46b6226410d5de9bc, type: 3}
+  m_Name: SKS
+  m_EditorClassIdentifier: 
+  gunName: SKS
+  prefab: {fileID: 7635042791939558299, guid: 0cc527650c932cf41a63c92a6036839f, type: 3}
+  bulletSpread: 0
+  fireRate: 0.8
+  isMelee: 0
+  magazineSize: 10
+  maxAmmoStash: 50
+  currentAmmoStash: 9986
+  currentBulletsInMagazine: 10
+  reloadTime: 1
+  isAutomatic: 0
+  isBurst: 0
+  timeBetweenBullets: 0
+  bulletsPerTap: 1
+  timeBetweenFiring: 0.1
+  useRecovery: 0
+  aimSpeed: 20
+  playerCamZoomMultiplier: 2
+  weaponCamZoomMultiplier: 5
+  ADSSensitivityMultiplier: 3
+  ADSSwayMultiplier: 5
+  damage: 45
+  bulletForce: 10
+  canBeShot:
+    serializedVersion: 2
+    m_Bits: 4225
+  trailTime: 1
+  randomizeRecoil: 0
+  randomRecoilConstraints: {x: 0.1, y: 0.1}
+  recoilPattern:
+  - {x: -1.5, y: -0.5, z: 0}
+  - {x: -1.5, y: -0.5, z: 0}
+  - {x: -1.5, y: 0.5, z: 0}
+  - {x: -1.5, y: 0.5, z: 0}
+  - {x: -1.5, y: 0.5, z: 0}
+  - {x: -1.5, y: 0.5, z: 0}
+  - {x: -1.5, y: -0.5, z: 0}
+  - {x: -1.5, y: -0.5, z: 0}
+  snappiness: 4
+  returnSpeed: 5
+  aimSnappiness: 6
+  aimReturnSpeed: 6
+  rotationalKickback: 1
+  rotationalKickbackReturnSpeed: 3
+  positionalKickback: 0.5
+  positionalKickbackReturnSpeed: 1
+  magnitude: 0.02
+  roughness: 1
+  fadeInTime: 0.1
+  fadeOutTime: 0.3
+  bulletHolePrefab: {fileID: 5937179703506891156, guid: 616f033eb0f621c45a93486fa3c07f00, type: 3}
+  muzzleFlashPrefab: {fileID: 0}
+  gunshotSounds:
+  - {fileID: 8300000, guid: e5202965de636f04b9273de4868df2aa, type: 3}
+  - {fileID: 8300000, guid: 4e976bfb065889a469455ea24f6a6a21, type: 3}
+  - {fileID: 8300000, guid: b3c7151ed3492444db33290254fbc76a, type: 3}
+  - {fileID: 8300000, guid: 3a910a8fbdd55ac4dab4cee08e8044bf, type: 3}
+  pitchRandomization: 0.15
+  volume: 1
